@@ -1,10 +1,14 @@
 BlogApp::Application.routes.draw do
   
-  resources :posts
-
   root to: 'pages#home'
   
+  resources :posts do 
+    resources :comments
+  end
+  
   get 'home' => 'pages#home'
+  
+  get 'resources' => 'pages#resources'
 
   get 'about' => 'pages#about'
 
