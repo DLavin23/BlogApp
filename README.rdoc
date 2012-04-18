@@ -1,1 +1,2 @@
-This is a simple rails blog application, built with Twitter Bootstrap.  
+"Beta Blog" is a rails application, specifically designed to help beginners get a blog up and running. 
+
